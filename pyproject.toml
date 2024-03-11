@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "new-spam-bot"
+version = "0.1.0"
+description = ""
+authors = ["Sergey <joonigman@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic-settings = "^2.2.1"
+sqlalchemy = "^2.0.28"
+alembic = "^1.13.1"
+asyncpg = "^0.29.0"
+aiogram = "^3.4.1"
+requests = "^2.31.0"
+bs4 = "^0.0.2"
+lxml = "^5.1.0"
+asyncio = "^3.4.3"
+py-dotenv = "^0.1"
+aiohttp = "^3.9.3"
+fastapi = "^0.110.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
