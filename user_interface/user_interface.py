@@ -28,7 +28,7 @@ async def start(message: Message):
     await AddInDB().add_user(message.from_user.id, message.from_user.username)
 
 
-#                                                                                           ***Тайтл***
+#                                                                                           ***Title***
 
 
 @router.message(Command('title'))
@@ -128,7 +128,7 @@ async def add_to_bd(call: CallbackQuery,  state: FSMContext):
 #                                                                                           ***End***
 
 
-#                                                                                           ***Лист***
+#                                                                                           ***List***
 
 
 @router.message(Command('list'))
@@ -175,4 +175,3 @@ async def anime_list(call: CallbackQuery):
         """
     )
 #                                                                                           ***End***
-

@@ -49,4 +49,3 @@ class ModelValidation(Validation):
     #         .filter_by(user_id=user_id)
     #     )
     #     return True if await session.scalar(query) is not None else False
-

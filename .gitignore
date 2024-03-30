@@ -4,6 +4,7 @@ venv/
 /parsing_titles/
 __pycache__/
 poetry.lock
-secretcode
+secretcode.py
 anime_parsing.py
 manga.py
+beta.py

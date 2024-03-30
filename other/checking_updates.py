@@ -31,4 +31,3 @@ async def checking(bot):
                 await bot.send_message(i, w, parse_mode=ParseMode.HTML)
         print(f'{url} - нет изменений')
 
-

@@ -20,11 +20,3 @@ class MangaData(BaseModel):
     status: str
     about_title: str
     url: str 
-
-
-# class DifferentModel(AnimeData, MangaData):
-#     def __init__(self, data: AnimeData | MangaData):
-#         if isinstance(data, AnimeData):
-#             self.__class__ = AnimeData
-#         elif isinstance(data, MangaData):
-#             self.__class__ = MangaData

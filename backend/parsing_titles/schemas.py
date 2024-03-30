@@ -25,12 +25,3 @@ class MangaTitle(BaseModel):
     year: str | None
     status: str | None
     url: str
-
-
-# class ModelUser(BaseModel):
-#     user_id: int
-#     title: str
-#     episodes: str
-#     status: str
-#     about_title: str
-#     url: str
