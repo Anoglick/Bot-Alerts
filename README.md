@@ -11,3 +11,4 @@ Dependencies are installed using the command in the terminal:
   2. Log in to the virtual environment
   3. Install pip poetry
   4. Install poetry
+  5. Write a parser for the categories you are interested in ("the_forms" file contains an example of a message form sent to the user)
