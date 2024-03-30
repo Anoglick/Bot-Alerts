@@ -1,1 +1,1 @@
-from . import config_bd, db, models, ormka
+from . import orm_database, schemas, models, configuration

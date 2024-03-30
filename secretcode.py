@@ -2,7 +2,7 @@ import asyncio
 from sqlalchemy import and_, select, text, insert, func, cast
 
 from dataBase.db import asessionmaker, async_engine, Base
-from dataBase.models import User, Anime
+from dataBase.models.models import User, Anime
 
 async def create_tables():
     async with async_engine.begin() as conn:

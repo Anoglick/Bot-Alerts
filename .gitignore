@@ -1,5 +1,9 @@
 venv/
 .env
 ._env
+/parsing_titles/
 __pycache__/
 poetry.lock
+secretcode
+anime_parsing.py
+manga.py
